@@ -1,0 +1,18 @@
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    text-align: center !important;
+    margin-top: 10%;
+    background-color: rgb(230,230,250);
+    border-radius: 5%;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  font-size: 16px;
+}

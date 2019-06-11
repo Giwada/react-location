@@ -1,0 +1,56 @@
+[
+  {
+    "id": 101,
+    "name": "Play the music",
+    "imageUrl": "https://raw.githubusercontent.com/Giwada/Giwada.github.io-/master/images/host-001.jpg",
+    "price": 164,
+    "priceCurrency": "EUR",
+    "lat": 48.210033,
+    "lng": 16.363449 
+  },
+  {
+    "id": 102,
+    "name": "You can play 24/7",
+    "imageUrl": "https://raw.githubusercontent.com/Giwada/Giwada.github.io-/master/images/host-002.jpg",
+    "price": 220,
+    "priceCurrency": "EUR",
+    "lat": 48.150033,
+    "lng": 16.383449 
+  },
+  {
+    "id": 103,
+    "name": "Group lesson is perfect",
+    "imageUrl": "https://raw.githubusercontent.com/Giwada/Giwada.github.io-/master/images/host-003.jpg",
+    "price": 158,
+    "priceCurrency": "EUR",
+    "lat": 48.270033,
+    "lng": 16.323449 
+  },
+  {
+    "id": 104,
+    "name": "Let's play music!",
+    "imageUrl": "https://raw.githubusercontent.com/Giwada/Giwada.github.io-/master/images/host-004.jpg",
+    "price": 115,
+    "priceCurrency": "EUR",
+    "lat": 48.251840,
+    "lng": 16.343371
+  },
+  {
+    "id": 105,
+    "name": "Super large space",
+    "imageUrl": "https://raw.githubusercontent.com/Giwada/Giwada.github.io-/master/images/host-005.jpg",
+    "price": 135,
+    "priceCurrency": "EUR",
+    "lat": 48.234839,
+    "lng": 16.339208
+  },
+  {
+    "id": 106,
+    "name": "Unbelievably quiet",
+    "imageUrl": "https://raw.githubusercontent.com/Giwada/Giwada.github.io-/master/images/host-006.jpg",
+    "price": 278,
+    "priceCurrency": "EUR",
+    "lat": 48.244839,
+    "lng": 16.359208
+  }
+]

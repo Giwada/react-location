@@ -1,0 +1,15 @@
+.Marker {
+	width: 48px;
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	text-align: center;
+	padding: 4px 0;
+	font-size: 16px;
+	font-family: 'Lato';
+	font-weight: bold;
+}
+.Marker.Selected {
+	background-color: #aa8cc5;
+	border-color: black;
+}
