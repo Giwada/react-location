@@ -34,7 +34,7 @@ app.listen(port, () => console.log(`Server up and running on port ${port} !`));
 
 // mongoDB connection
 const mongoose = require('mongoose');
-const mongoDB = 'mongodb+srv://giwada:Kagi@2512@cluster0-sz3pm.mongodb.net/test?retryWrites=true';
+const mongoDB = 'mongodb+srv://<dbuser>:<dbpassword>@cluster0-sz3pm.mongodb.net/test?retryWrites=true';
 mongoose
   .connect(mongoDB, { useNewUrlParser: true })
   .then(() => console.log("MongoDB successfully connected"))
