@@ -18,7 +18,7 @@ npm create-react-app `project_name`
 cd `project_name`
 ```
 
-### Directory Structure (version 1.1)
+### Directory Structure (version 1.2)
 
 ```
 react-geolocation
@@ -37,12 +37,16 @@ react-geolocation
     |   └── ...
 ├── server/
     ├── auth/
+    │   ├── adminAuth.js
+    ├── config/
+    │   ├── host.json
+    │   ├── index.js
+    │   ├── config.js
+    │   ├── tokens.js   
     ├── models/
-    │   ├── reservation.model.js
+    │   ├── user.js
     ├── node_modules/ *not included
     ├── routes/
-    │   ├── index.js
-    │   ├── reservation.route.js
     │   ├── user.js
     ├── package-lock.json
     ├── package.json
@@ -52,4 +56,6 @@ react-geolocation
 
 ## Built With
 
-* [express-locallibrary-tutorial](https://github.com/mdn/express-locallibrary-tutorial) - Tutorial "Local Library" website written in in Node/Express.
+* [Tutorial "Local Library"](https://github.com/mdn/express-locallibrary-tutorial)
+
+* [Twilio Programmable Chat with KendoReact Conversational UI and React] (https://github.com/philnash/twilio-chat-kendo-react)

@@ -21,6 +21,7 @@ class App extends Component {
                             <Route path="/login" component={Login}/>
                             <Route path="/register" component={Register}/>
                             <Route path="/" component={Home}/>
+                            <Route path="/chat" component={Chat}/>
                         </Switch> 
                     </div>
                 </BrowserRouter>

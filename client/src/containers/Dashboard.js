@@ -10,6 +10,8 @@ import GoogleMapReact from 'google-map-react';
 // import CSS
 import '../styles/Dashboard.css';
 
+// import chat
+import ChatApp from '../components/chat';
 
 class Dashboard extends Component {
   //this is a class conscructor that assigns the initial this.state
@@ -64,6 +66,9 @@ class Dashboard extends Component {
       }
     }
 
+    let Chat;
+    Chat = <ChatApp email={this.state.email} />;
+
     return (
       <div className="Dashboard">
         <div className="Main">
@@ -81,6 +86,9 @@ class Dashboard extends Component {
                   segment={segment}
                   selectSegment={this.selectSegment}/>
               })}
+            </div>
+            <div>
+              {Chat}
             </div>
         </div> 
 
